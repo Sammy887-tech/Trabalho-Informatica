@@ -1,0 +1,140 @@
+body {
+    background-image: url(imagem/maxresdefault.jpg);
+ background-repeat: 'judas';
+ background-size:cover ;
+ background-attachment: fixed;  
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+} 
+
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: #154c79 ;
+    padding: 15x;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #6a0dad;
+    transition: transform 0.5s ease;
+    margin-top: 130px;
+
+    
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+button{
+    width: 140px;
+    height: 100px;
+    background-color: #ff4f4f;
+    border: 10px;
+    border-radius: 10x;
+    box-shadow: 3px 3px 10px;
+}
+
+.card button:hover{
+    background-color: #d4002a;
+}
+a {
+    color: #6a0dad;
+    text-decoration: none;
+font-family: sans-serif;
+ font-size: 20px;
+}
+p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    color: #1A1A2E; 
+}
+ol{
+    color: azure;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    
+  
+}
+H1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #1f618d;
+    font-size: 100px;
+}
+#text{
+    display: flex;
+    margin:  0 auto;
+    align-items: center;
+}
+#HISTORIA
+{
+    background-image: LINEAR-GRADIENT(to top
+    , #e50914, #f5f5f5,#ffffff, #b22222);
+    a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+        display: flex;
+        color: #00FFFF;
+    } 
+    img{
+        width: 450px;
+        height: 400px;
+    }
+    #video{
+        justify-content:right;
+        font-size: 80px;
+        display: flex;
+    }
+}
+#CURIOSIDADES{
+    background-image: linear-gradient(#ff8c00,#ff8c00, #c4c4c4, #1c3d5a,#0f52ba);
+     p{
+        color: chartreuse;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+ img{ width: 400px;
+    height: 350px; } 
+    a{
+    color: #32CD32;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    }
+    .pichau{display: flex;
+    }
+#Pichau1{
+    display: flex;
+}
+#FUNCIONAMENTO{
+    background-image: linear-gradient(to right, #0a84FF, #f5f5f5,#ffffff, #C21807);
+    p{
+        color: #111111;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+     img{ width: 400px;
+    height: 350px; }     
+a{
+    color: #8A2BE2;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+}
+#pichau3{
+    display: flex;
+}
+#pichau{
+    display: flex;}
+    
